@@ -27,10 +27,8 @@
 
 package Sympa::Bulk;
 
-use strict;
-use warnings;
+use Sympatic;
 use Cwd qw();
-use English qw(-no_match_vars);
 use File::Copy qw();
 use Time::HiRes qw();
 
